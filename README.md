@@ -1,16 +1,45 @@
-# myapp
+# Flutter Counter App (SharedPreferences)
 
-A new Flutter project.
+This repository contains a **Flutter Counter App** that demonstrates persistent local data storage using `SharedPreferences`.  
+The application maintains a counter value that is saved locally and restored automatically when the app is reopened.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Project Overview
 
-A few resources to get you started if this is your first Flutter project:
+The purpose of this minor project is to understand how Flutter applications can store and retrieve simple data locally.  
+The app uses `SharedPreferences` to persist the counter value, ensuring data is not lost when the application is closed.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
+## 🖥 Demo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Demo GIF](lib/assets/images/counter_app.gif)
+
+## 🎯 Objectives
+
+- Implement a counter using Flutter
+- Store data locally using `SharedPreferences`
+- Retrieve stored data during app initialization
+- Understand Flutter widget lifecycle (`initState`)
+- Practice asynchronous programming in Dart
+
+---
+
+## 🧩 Features
+
+- Increment counter value
+- Save counter value locally
+- Restore saved value on app restart
+- Clear stored counter data
+- Simple and clean user interface
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter**
+- **Dart**
+- **SharedPreferences**
+
+---
+
